@@ -1,0 +1,1068 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+}
+
+.ourteamh2{
+    padding-top: 50px;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.container2{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.hometitle{
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/cloudcomputing64.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.hometitle::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.naviationbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(26, 61, 63);
+    position: fixed;
+    top: 0;
+}
+
+.homei{
+    color: white;
+    font-size: 25px;
+    padding-top: 9px;
+    padding-left: 50px;
+    float: left;
+}
+
+.homelist{
+    list-style-type: none;
+    float: right;
+    padding-top: 12px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.homelist li{
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 16px;
+    position: relative;
+}
+
+.homelist a{
+    text-decoration: none;
+    color: white;
+}
+
+.mainmain{
+    margin-top: 270px;
+}
+
+.main{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.mainp{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    word-spacing: 3px;
+}
+
+.mainp1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+.mainbtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 0.5px solid rgb(93, 93, 243);
+}
+
+.mainbtn1{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(70, 70, 230);
+    border: 0.5px solid rgb(93, 93, 243);
+    color: white;
+}
+
+.homelist li::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    background-color: rgb(151, 190, 221);
+    opacity: 1;
+    margin-top: 18px;
+}
+
+.homelist li:hover::after{
+    width: 100%;
+    height: 10%;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.mainbtn:hover{
+    opacity: 0.3;
+}
+
+.mainbtn1:hover{
+    opacity: 0.3;
+}
+
+.searchicon{
+    width: 200px;
+    height: 26px;
+    margin-left: 12px;
+    margin-top: 8px;
+    border-radius: 16px;
+    border: 1px solid gray;
+    position: absolute;
+}
+
+.searchsearchicon .searchicon1{
+    width: 20px;
+    height: 30px;
+    margin-top: 13px;
+    padding-left: 20px;
+    color: rgb(82, 80, 80);
+    position: absolute;
+}
+
+
+
+
+
+
+.spandifficult1{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+    height: 100px;
+    margin-left: 405px;
+    /* margin-top: -12px; */
+    background-color: rgb(211, 232, 241);
+    border-radius: 12px;
+    padding-left: 9px;
+    padding-top: 6px;
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.mona:hover .spandifficult1{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.spandifficult1 .difficulta{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+/* .welcometowebsiteparent{
+    padding-top: 150px; 
+} */
+
+.custamizable{
+    width: 25%;
+    height: 180px;
+    border: 1.4px solid rgb(92, 132, 139);
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.middle{
+    margin: 0% 12.5%;
+}
+
+.icon{
+    color: blue;
+    font-size: larger;
+}
+
+.custamizableh2{
+    padding-top: 15px;
+}
+
+.custamizablep{
+    padding-top: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.custamizablep1{
+    padding-top: 15px;
+}
+
+.custamizablea1{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.custamizable::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(108, 78, 184);
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 6px;
+}
+
+.custamizable:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.custamizable:hover .custamizableh2{
+    color: white;
+    font-weight: bold;
+}
+
+.custamizable:hover .custamizablep{
+    font-weight: bold;
+    color: black;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.FeaturedWorksparent{
+    padding-top: 100px; 
+}
+
+.FeaturedWorks{
+    width: 25%;
+    height: 180px;
+    border: 1.4px solid rgb(92, 132, 139);
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.i1{
+    background-image: url(../image/cloudcomputing60.jpg);
+    background-size: cover;
+}
+
+.i2{
+    background-image: url(../image/cloudcomputing86.jpg);
+    background-size: cover;
+}
+
+.i3{
+    background-image: url(../image/cloudcomputing74.jpg);
+    background-size: cover;
+}
+
+.i4{
+    background-image: url(../image/cloudcomputing76.jpg);
+    background-size: cover;
+}
+
+.i5{
+    background-image: url(../image/cloudcomputing78.jpg);
+    background-size: cover;
+}
+
+.i6{
+    background-image: url(../image/cloudcomputing65.jpg);
+    background-size: cover;
+}
+
+.FeaturedWorks2{
+    margin-top: 65px;
+}
+
+.middle{
+    margin: 0% 12.5%;
+}
+
+.FeaturedWorksh3{
+    width: 50%;
+    height: 8px;
+    margin: auto;
+    color: white;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+.FeaturedWorksp{
+    width: 50%;
+    height: 8px;
+    margin: auto;
+    color: white;
+    padding-top: 35px;
+    font-weight: bold;
+}
+
+.FeaturedWorksbtn{
+    width: 25px;
+    height: 20px;
+    margin: auto;
+    color: rgb(87, 7, 179);
+    margin-top: 35px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+.FeaturedWorksdiv{
+    visibility:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.FeaturedWorks::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.FeaturedWorks:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.FeaturedWorks:hover .FeaturedWorksdiv{
+    visibility: visible;
+    z-index: 2;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.welcometowebsiteparent{
+    padding-top: 150px; 
+}
+
+.WhatWeOffer{
+    width: 25%;
+    height: 180px;
+    border: 1.4px solid rgb(92, 132, 139);
+    float: left;
+    padding-top: 20px;
+    padding-left: 8px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.middle{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.icon1{
+    color: blue;
+    font-size: 22px;
+    position: relative;
+}
+
+.WhatWeOfferh2{
+    padding-left: 5px;
+    padding-right: 4px;
+}
+
+.ul1{
+    position: absolute;
+    display: inline;
+    list-style-type: none;
+}
+
+.WhatWeOfferp{
+    padding-top: 6px;
+    font-size: 15px;
+    color: rgb(102, 101, 100);
+    padding-left: 5px;
+    padding-right: 12px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.WhatWeOffer::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(108, 78, 184);
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 6px;
+}
+
+.WhatWeOffer:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.WhatWeOffer:hover .WhatWeOfferh2{
+    color: rgb(12, 9, 204);
+}
+
+.WhatWeOffer:hover .WhatWeOfferp{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.special{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+
+.ourteamh22{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.ourteamp11{
+    width: 60px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 3px;
+}
+
+.WhyChooseUs1{
+    width: 50%;
+    height: 400px;
+    float: right;
+    
+}
+
+.WhyChooseUsparent{
+    position: relative;
+}
+
+.WhyChooseUs3{
+    width: 50%;
+    height: 400px;
+    padding-top: 40px;
+    float: left;
+    color: gray;
+}
+
+.ul3{
+    padding-top: 45px;
+}
+
+.li3{
+    list-style-type: none;
+    height: 45px;
+}
+
+.mark1{
+    font-size: 15px;
+}
+.uul1{
+    float: right;
+    margin-left: 115px;
+    position: absolute;
+    list-style-type: none;
+}
+.lli{
+    display: inline;
+}
+
+.WhyChooseUs2-2{
+    padding-top: 310px;
+    float: right;
+}
+
+.image2{
+    float: right;
+}
+
+.circle1{
+    font-size: 10px;
+    cursor: pointer;
+    color: rgb(163, 163, 170);
+    padding-left: 10px;
+}
+
+.circle2{
+    color: rgb(133, 133, 235);
+}
+
+.circle1:hover{
+    color: rgb(128, 128, 228);
+}
+
+.WhyChooseUsp{
+    text-align: justify;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.container1{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/cloudcomputing87.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parent100{
+    width: 80%;
+    margin:auto;
+}
+
+.backg-i{
+    color: rgb(153, 162, 238);
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+.backg-p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.divbackground{
+    width: 20%;
+    height: 50px;
+    float: left;
+    color: white;
+    text-align: center;
+    margin: 15% 20px;
+}
+/* //////////////////////////////////////////////////////////////////// */
+
+.PricingTablediv{
+    width: 25%;
+    height: 330px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.PricingTablediv1{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(46, 36, 175);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding-top: 9px;
+    font-size: 25px;
+}
+
+.PricingTablediv1p{
+    font-size: 16px;
+}
+.PricingTable{
+    padding-top: 20px;
+}
+
+.PricingTablebtn{
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.PricingTablebtn:hover{
+    background-color: white;
+}
+.PricingTabledivmiddle{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    
+}
+
+.PricingTablediv:hover .PricingTablep{
+    color: rgb(47, 47, 228);
+}
+
+.PricingTablediv::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(161, 130, 243);
+    transition: 1s;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.PricingTablediv:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+/* /////////////////////////////////////////////////////// */
+.container11{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/cloudcomputing84.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.divbackgrounddiv{
+    width: 50%;
+    height: 150px;
+    float: left;
+    /* border: 2px solid red; */
+    margin-top: 120px;
+    
+}
+
+.divbackgrounddivdiv{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(46, 36, 175);
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url(../image/cloudcomputing40.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 8px;
+}
+
+.divbackgrounddivdivimage1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.divbackgrounddivdivimage2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.divbackgrounddivdivp{
+    margin-top: 50px;
+    margin-left: 12px;
+    font-weight: bolder;
+    color: white;
+    font-size: 22px;
+}
+.divbackgrounddivdivp2{
+    font-weight: bolder;
+    margin-top: 10px;
+    color: rgb(182, 133, 204);
+    font-size: 22px;
+}
+
+.divbackgrounddivdivp3{
+    font-weight: bolder;
+    padding-top: -20px;
+    color: white;
+}
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////// */
+.ourteamh2{
+    margin-top: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ourteamp1{
+    width: 90px;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.ourteamparent{
+    padding-top: 150px;    
+}
+
+.ourteamitem{
+    float: left;
+    width: 30%;
+    padding: 16px 14px;
+    text-align: center;
+    background-color: rgb(93, 158, 161);
+    position: relative;
+}
+
+.ourteamitem2{
+    margin: 0% 5%;
+}
+
+.ourteamitem-img{
+    /* background-color: brown; */
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.ourteamitem-img img{
+    width: 100%;
+}
+
+.ourteamitem::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+    transition: 1s;
+}
+
+.ourteamitem:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 1s;
+}
+
+.ourteamitem-info{
+    padding: 10px;
+}
+
+.ourteamitem-img-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+.ourteamitem:hover .ourteamitem-img-icon{
+    visibility: visible;
+}
+
+.ourteamitem-img-icon i{
+    color: white;
+    background-color: rgb(26, 61, 63);
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    line-height: 45px;
+}
+
+.ourteamitem-info-h3{
+    color: rgb(51, 51, 146);
+}
+.ourteamitem:hover .ourteamitem-info-h3{
+    color: rgb(160, 207, 229);
+}
+
+.ourteamitem-info-p{
+    font-weight: bold;
+    color: white;
+    padding-top: 3px;
+}
+.ourteamitem:hover .ourteamitem-info-p{
+    color: rgb(51, 51, 146);
+    font-weight: bold;
+}
+/* /////////////////////////////////////////////////////// */
+
+
+.ourteamh2{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ourteamp1{
+    width: 90px;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.RecentNewsparent{
+    padding-top: 100px;    
+}
+
+.RecentNews{
+    float: left;
+    width: 30%;
+    height: 450px;
+    padding: 16px 14px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.RecentNews2{
+    margin: 0% 5%;
+}
+
+.RecentNews-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.RecentNews-img img{
+    width: 100%;
+}
+
+.iicon{
+    color: rgb(72, 72, 241);
+    margin: 12px 4px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.iicon1{
+    margin-left: 15px;
+}
+.RecentNews::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(94, 61, 185);
+    opacity: 0.3;
+    transition: 0.5s;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+.RecentNews:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.RecentNews-info{
+    padding: 10px;
+}
+
+.RecentNews-info-p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.RecentNews-p{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.RecentNews:hover .RecentNews-p{
+    color: rgb(7, 7, 102);
+}
+
+.RecentNews-a{
+    text-decoration: none;
+    color: rgb(7, 7, 102);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.RecentNews:hover .RecentNews-info-p{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+.container111{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(183, 183, 241);
+}
+
+.end2{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    background-image: url(../image/cloudcomputing55.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.end{
+    padding-top: 60px;
+}
+
+.end3{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 25px;
+    color: rgb(107, 107, 238);
+    margin-left: 41.5%;
+}
+
+.end4{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(83, 83, 83);
+    margin-top: 8px;
+    display: block;
+    font-weight: bolder;
+}
+
+.span1:hover{
+    background-color: rgb(42, 42, 180);
+}
+
+.i20{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.span1{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(98, 98, 231);
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-top: 7px;
+    float: left;
+    margin-right: 4px;
+    cursor: pointer;
+}
